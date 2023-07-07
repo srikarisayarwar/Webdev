@@ -1,0 +1,105 @@
+*{
+    margin :0;
+    padding :0;
+}
+header{
+    height : 32px;
+    background-color:mediumspringgreen;
+    color:white;
+    text-align: center;   
+    border:black;
+    border-style: ridge;
+}
+main{
+    min-height: calc(100vh - 32px - 25px);
+}
+footer{
+    height : 25px;
+    background-color:mediumspringgreen;
+    color:white;
+    text-align: center;   
+    border:black;
+    border-style: ridge;
+}
+form{
+    margin:4px;
+    padding :105px;
+    float:left;
+}
+.right{
+    margin: 4px;
+    padding: 38px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 50%;
+    float:right;
+
+}
+#enroll{
+background-color:mediumblue;
+color:mintcream;
+}
+#clear{
+    background-color:red ;
+    color:mintcream;
+}
+table, td {
+    margin: 46px;
+    border: 2px solid greenyellow;
+}
+thead {
+    background-color: greenyellow;
+    color: #fff;
+}
+tbody {
+    background-color: rgb(223, 246, 190);
+    color:black;
+}
+h3{
+    text-align: center;
+}
+#name,#email{
+    margin: auto auto auto 40px;
+}
+#weblink{
+    margin: auto auto auto 28px;
+}
+#imglink{
+    margin: auto auto auto 12px;
+}
+#male{
+    margin: auto auto auto 34px;
+}
+#female{
+    margin: auto auto auto 85px;
+}
+#java{
+    margin: auto auto auto 43px;
+}
+#invalid{
+    color:red;
+    visibility:hidden;
+    display: inline-flex;
+}
+#blank{
+    color:red;
+    visibility:hidden;
+}
+#gender{
+    color:red;
+    visibility:hidden;
+   
+}
+#course{
+    color:red;
+    visibility:hidden;
+   
+}
+@media screen and (max-width:1107px){
+    main{
+        display: flex;
+    flex-flow: column;
+    }
+    
+}
